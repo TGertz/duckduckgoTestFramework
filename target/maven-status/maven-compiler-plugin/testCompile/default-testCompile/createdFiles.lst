@@ -1,0 +1,4 @@
+tests\validation\MoreResultsValidateTest.class
+tests\base\BaseTest.class
+tests\validation\RedirectionValidateTest.class
+tests\validation\SearchValidateTest.class
