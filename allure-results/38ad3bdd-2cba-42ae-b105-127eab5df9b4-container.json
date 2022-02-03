@@ -1,1 +1,0 @@
-{"uuid":"38ad3bdd-2cba-42ae-b105-127eab5df9b4","name":"TestN12Framework","children":["3cf8058c-ebfa-493e-9bf5-aa690b13cbb2"],"befores":[],"afters":[{"name":"clearCookiesAndLocalStorage","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1640292827404,"stop":1640292827662}],"start":1640292811009,"stop":1640292827663}

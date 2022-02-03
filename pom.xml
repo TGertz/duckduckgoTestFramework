@@ -72,6 +72,11 @@
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -95,11 +100,7 @@
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
-                    <dependency>
-                        <groupId>org.aspectj</groupId>
-                        <artifactId>aspectjweaver</artifactId>
-                        <version>${aspectj.version}</version>
-                    </dependency>
+
                 </dependencies>
             </plugin>
             <plugin>
@@ -107,7 +108,7 @@
                 <artifactId>allure-maven</artifactId>
                 <version>2.9</version>
                 <configuration>
-                    <allureDownloadUrl>https://github.com/allure-framework/allure/releases/download/allure-2.7.0.zip</allureDownloadUrl>
+                    <allureDownloadUrl>https://github.com/allure-framework/allure/releases/download/2.7.0/allure-2.7.0.zip</allureDownloadUrl>
                     <reportDirectory>allure-results</reportDirectory>
                 </configuration>
             </plugin>
